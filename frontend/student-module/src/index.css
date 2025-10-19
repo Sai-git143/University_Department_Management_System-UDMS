@@ -1,0 +1,34 @@
+/* Attendance Calendar Heatmap Styles */
+.attendance-full {
+  background-color: #28a745 !important; /* Dark green */
+  color: white !important;
+}
+
+.attendance-high {
+  background-color: #66bb6a !important; /* Medium green */
+  color: white !important;
+}
+
+.attendance-medium {
+  background-color: #a5d6a7 !important; /* Light green */
+  color: black !important;
+}
+
+.attendance-low {
+  background-color: #ffc107 !important; /* Yellow */
+  color: black !important;
+}
+
+.attendance-absent {
+  background-color: #dc3545 !important; /* Red */
+  color: white !important;
+}
+
+/* Ensure text is visible on colored tiles */
+.react-calendar__tile.attendance-full abbr,
+.react-calendar__tile.attendance-high abbr,
+.react-calendar__tile.attendance-medium abbr,
+.react-calendar__tile.attendance-low abbr,
+.react-calendar__tile.attendance-absent abbr {
+  color: inherit !important;
+}
